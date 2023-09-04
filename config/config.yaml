@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/bhavyaprakash2002/Text-Summarizer/raw/main/samsum_dataset_hugging_face.7z
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
