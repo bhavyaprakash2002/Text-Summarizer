@@ -3,6 +3,13 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/bhavyaprakash2002/Text-Summarizer/raw/main/samsum_dataset_hugging_face.7z
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train", "test", "validation"]
